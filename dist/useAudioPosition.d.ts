@@ -6,7 +6,7 @@ interface AudioPosition {
     duration: number;
     percentComplete: number;
     seek: (position: number) => number;
-    speed: (rate: number | undefined) => number | undefined;
+    speed: (rate?: number) => number | undefined;
 }
 export declare const useAudioPosition: (config?: UseAudioPositionConfig) => AudioPosition;
 export {};
