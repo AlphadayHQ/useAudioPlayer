@@ -27,10 +27,7 @@
         "build": "tsdx build",
         "test": "tsdx test",
         "test:integration": "cypress run",
-        "lint": "tsdx lint",
-        "prepare": "tsdx build",
-        "preversion": "yarn test && yarn build",
-        "release": "yarn version && yarn publish --non-interactive && echo 'Remember to push new commit/tags to Github'"
+        "lint": "tsdx lint"
     },
     "devDependencies": {
         "@testing-library/react-hooks": "^3.4.1",
