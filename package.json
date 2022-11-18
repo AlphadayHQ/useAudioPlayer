@@ -1,6 +1,6 @@
 {
     "name": "react-use-audio-player",
-    "version": "1.2.6",
+    "version": "1.2.7",
     "description": "React hook for building custom audio playback controls",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
@@ -30,8 +30,7 @@
         "lint": "tsdx lint",
         "prepare": "tsdx build",
         "preversion": "yarn test && yarn build",
-        "release": "yarn version && yarn publish --non-interactive && echo 'Remember to push new commit/tags to Github'",
-        "post-install": "yarn build"
+        "release": "yarn version && yarn publish --non-interactive && echo 'Remember to push new commit/tags to Github'"
     },
     "devDependencies": {
         "@testing-library/react-hooks": "^3.4.1",
